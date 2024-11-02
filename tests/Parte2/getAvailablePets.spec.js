@@ -4,7 +4,7 @@ import fs from 'fs';
 
 
 
-test.describe('Get pet details', () => {
+test.describe('Get available pet details', () => {
     test('should get pets information by status', async ({ request, baseURL }) => {
         
         const statusNeeded= 'available'
